@@ -4,8 +4,8 @@ import { inter } from "./fonts";
 import { Toaster } from "@/components/ui/sonner";
 
 export const metadata: Metadata = {
-  title: "Next.js + MongoDB + Better Auth",
-  description: "Use MongoDB with Next.js and Better Auth for authentication",
+  title: "Fórum IFSP",
+  description: "Comunidade e fórum de discussões do IFSP",
 };
 
 export default function RootLayout({
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} dark`}>
+    <html lang="pt-BR" className={`${inter.variable} dark`}>
       <body>
         {children}
         <Toaster />
